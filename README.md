@@ -8,38 +8,38 @@ This babel plugin replace bem-attributes to className attribute with bem-entity 
 ### Replace attributes:
 From:
 ```jsx
-`<button 
+<button 
 	block="button" 
 	mods={{size: "s"}} 
 	mix={{block: 'form', elem: 'button'}}>
-</button>`
+</button>
 ```
 To:
 ```jsx
-`<button className={
+<button className={
 	BEMClasses({
 		block: "button", 
 		mods: {size: "s"}, 
 		mix: {block: 'form', elem: 'button'}
 	})
-}></button>;`
+}></button>;
 ```
 ### Find parent block in JSX
 From:
 ```jsx
-`<button block="button">
+<button block="button">
 	<span elem="inner">
 		<span elem="icon"></span>
 	</span>
-</button>`
+</button>
 ```
 To:
 ```jsx
-`<button className={BEMClasses({block: "button"})}>
+<button className={BEMClasses({block: "button"})}>
 	<span className={BEMClasses({block: "button", elem: "inner"})}>
 		<span className={BEMClasses({block: "button", elem: "icon"})}></span>
 	</span>
-</button>;`
+</button>;
 ```
 
 ## Usage
