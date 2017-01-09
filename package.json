@@ -1,0 +1,31 @@
+{
+  "name": "JSX-BEMClasses",
+  "version": "0.1.0",
+  "description": "This babel plugin replace bem-attributes to className attribute with bem-entity object",
+  "keywords": [
+    "css",
+    "bem",
+    "bem-classes",
+    "css"
+  ],
+  "author": "Silvestr Baibuz <silvestr-b@yandex.ru>",
+  "license": "MIT",
+  "repository": "Silvestr-b/jsx-bemclasses",
+  "bugs": {
+    "url": "https://github.com/Silvestr-b/jsx-bemclasses/issues"
+  },
+  "homepage": "https://github.com/Silvestr-b/jsx-bemclasses",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^3.2.0",
+    "sinon": "^1.17.7"
+  },
+  "dependencies": {
+    "babel-core": "^6.21.0",
+    "babel-plugin-syntax-jsx": "^6.18.0"
+  }
+}
