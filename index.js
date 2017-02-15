@@ -42,7 +42,7 @@ module.exports = function ({ types: t }) {
               }
           }
         },
-      	Program: {
+      	JSXOpeningElement: {
           exit: (path) => {
             path.traverse({
             	JSXAttribute(path){
