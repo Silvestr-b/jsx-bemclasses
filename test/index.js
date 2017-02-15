@@ -6,7 +6,7 @@ const babel = require('babel-core');
 const plugin = require('../index');
 
 
-describe('', () => {
+describe('JSX-BEMClasses', () => {
 
 	describe('Должен заменять БЭМ-аттрибуты на аттрибут className со значением в виде вызова функции BEMClasses с аргументом в виде объекта описания БЭМ-сущности:', () => {
 		
