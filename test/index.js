@@ -130,7 +130,7 @@ function p(){
 		},
 		withoutBlockAndElem: {
 			input: '<button mods={{size: "s"}}><span mix={[{block: "form"}]}></span></button>',
-			output: '<button><span></span></button>;'
+			output: '<button mods={{size: "s"}}><span mix={[{block: "form"}]}></span></button>;'
 		}
 	}
 }
