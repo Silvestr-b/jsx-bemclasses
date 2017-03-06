@@ -1,5 +1,5 @@
 {
-  "name": "jsx-bemlasses",
+  "name": "babel-plugin-jsx-bemclasses",
   "version": "0.1.0",
   "description": "This babel plugin replace bem-attributes to className attribute with bem-entity object",
   "keywords": [
